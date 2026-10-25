@@ -9,7 +9,7 @@ body {
 
 .wordart {
     font-family: Arial, sans-serif;
-    font-size: 80px;
+    font-size: 4em;
     margin-left: 375px;
     margin-top: 30px;
     font-weight: bold;
@@ -19,7 +19,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+
 .wordart.blues .text {
     font-family: Impact, sans-serif;
       color: #24c0fd;
@@ -32,7 +32,7 @@ body {
 .top h2 {
     text-align: justify;
     width: 700px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 375px;
     color: rgb(236, 115, 230);
     text-shadow:
@@ -43,10 +43,9 @@ body {
 }
 
 .top img {
-    position: absolute;
     margin-left: 375px ;
-    margin-top: 30px;
-    width: 700px;
+    margin-top: 10px;
+    width: 400px;
 }
 
 nav#menu ul {
@@ -62,7 +61,7 @@ nav#menu ul {
     border: rgb(176, 225, 248) 10px solid;
     width: 190px;
     padding: 20px;
-    
+
 }
 
 nav#menu h1 {
@@ -75,9 +74,9 @@ nav#menu h1 {
 
 nav#menu img {
     height: 70px;
-    padding-top: 90px;
+    padding-top: 80px;
     z-index: 2;
-    
+
 }
 
 nav#menu li {
@@ -89,7 +88,7 @@ nav#menu li {
     text-align: center;
     border: 2px solid rgb(55, 241, 111);
     align-content: center;
-    
+
 }
 
 nav#menu a {
@@ -103,7 +102,7 @@ audio#music {
     margin-left: 70px;
 	top: 650px;
     width: 100px;
-    
+
 }
 
 .side {
@@ -113,8 +112,8 @@ audio#music {
     position: fixed;
     top: 0px;
     bottom: 100%;
-    margin-left: 1190px;  
-    width: 250px;    
+    margin-left: 1190px;
+    width: 250px;
 }
 
 .side img:nth-of-type(1) {
@@ -130,7 +129,7 @@ audio#music {
 .side img:nth-of-type(3) {
     height: 260px;
     border: rgb(176, 225, 248)7px solid;
-    
+
 }
 
 .movies {
@@ -138,7 +137,6 @@ audio#music {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 450px;
 }
 
 .movies h1 {
@@ -165,7 +163,6 @@ audio#music {
 }
 
 .movies img {
-    width: 700px;
     height:300px;
 }
 
@@ -173,7 +170,7 @@ audio#music {
     border: 0;
     clear:both;
     display:block;
-    width: 800px;               
+    width: 800px;
     background-color: rgb(117, 250, 150);
     height: 6px;
 }

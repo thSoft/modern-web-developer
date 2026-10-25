@@ -36,7 +36,7 @@ html, body {
 
 .container > * {
     width: 100%;
-    
+
 }
 
 .container h1 {
@@ -87,22 +87,21 @@ html, body {
 }
 
 .about img {
-    position: absolute;
+    margin-top: 20px;
     margin-left: 400px;
-    width: 900px;
+    width: 400px;
 }
 
 .about h1 {
-    position: absolute;
     text-align: justify;
     width: 510px;
     height: 380px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(241, 77, 48);
     margin-left: 520px;
-    margin-top: 330px;
+    margin-top: 10px;
     font-size: 33px;
-    
+
 }
 
 .container {
@@ -124,7 +123,7 @@ nav#menu ul {
     border: rgb(139, 139, 138) 10px solid;
     width: 220px;
     padding: 20px;
-    
+
 }
 
 nav#menu h1 {
@@ -137,9 +136,9 @@ nav#menu h1 {
 
 nav#menu img {
     height: 70px;
-    padding-top: 90px;
+    padding-top: 80px;
     z-index: 2;
-    
+
 }
 
 nav#menu li {
@@ -151,7 +150,7 @@ nav#menu li {
     text-align: center;
     border: 2px solid rgb(241, 115, 31);
     align-content: center;
-    
+
 }
 
 nav#menu a {
@@ -178,5 +177,5 @@ audio#music {
     margin-left: 85px;
 	top: 650px;
     width: 100px;
-    
+
 }

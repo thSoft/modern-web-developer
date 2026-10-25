@@ -9,7 +9,7 @@ body {
 
 .wordart {
     font-family: Arial, sans-serif;
-    font-size: 4em;
+    font-size: 3.6em;
     font-weight: bold;
     position: relative;
     margin-left: 375px;
@@ -19,7 +19,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+
   .wordart.radial .text {
       background: #353402;
       background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -40,17 +40,15 @@ body {
 .top h2 {
     text-align: justify;
     width: 700px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 375px;
     color: rgb(241, 238, 46)
 }
 
 .top img {
-    position: absolute;
     margin-left: 375px ;
     margin-top: 30px;
-    width: 700px;
-    height: 400px;
+    height: 320px;
 }
 
 nav#menu ul {
@@ -65,7 +63,7 @@ nav#menu ul {
     border: orange 10px solid;
     width: 190px;
     padding: 20px;
-    
+
 }
 
 nav#menu h1 {
@@ -78,9 +76,9 @@ nav#menu h1 {
 
 nav#menu img {
     height: 70px;
-    padding-top: 90px;
+    padding-top: 80px;
     z-index: 2;
-    
+
 }
 
 nav#menu li {
@@ -92,7 +90,7 @@ nav#menu li {
     text-align: center;
     border: 2px solid rgb(248, 252, 35);
     align-content: center;
-    
+
 }
 
 nav#menu a {
@@ -106,7 +104,7 @@ audio#music {
     margin-left: 70px;
 	top: 650px;
     width: 100px;
-    
+
 }
 
 .side {
@@ -116,8 +114,8 @@ audio#music {
     position: fixed;
     top: 0px;
     bottom: 0px;
-    margin-left: 1190px;  
-    width: 250px;    
+    margin-left: 1190px;
+    width: 250px;
 }
 
 .side img:nth-of-type(1) {
@@ -133,7 +131,7 @@ audio#music {
 .side img:nth-of-type(3) {
     height: 260px;
     border: orange 7px solid;
-    
+
 }
 
 .movies {
@@ -141,7 +139,6 @@ audio#music {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 450px;
 }
 
 .movies h1 {
@@ -155,19 +152,18 @@ audio#music {
     font-size: 25px;
     font-weight: bolder;
     color: yellow;
-    
+
 }
 
 .movies img {
     width: 700px;
-    height:300px;
 }
 
 .movies hr {
     border: 0;
     clear:both;
     display:block;
-    width: 800px;               
+    width: 800px;
     background-color: rgb(241, 172, 80);
     height: 6px;
 }

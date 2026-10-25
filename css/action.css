@@ -1,7 +1,7 @@
 body {
     background-color: rgb(143, 129, 6);
     background-image: url(/Gifs/snow.gif);
-    
+
 }
 
 * {
@@ -10,11 +10,11 @@ body {
 
 .wordart {
   font-family: Arial, sans-serif;
-  font-size: 4em;
+  font-size: 3.1em;
   font-weight: bold;
   position: relative;
   z-index: 1;
-  margin-left: 420px;
+  margin-left: 400px;
   margin-top: 30px;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
@@ -41,16 +41,14 @@ body {
 .top h2 {
     text-align: justify;
     width: 700px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 350px;
     color: lemonchiffon;
 }
 
 .top img {
-    position: absolute;
     margin-left: 350px ;
     margin-top: 30px;
-    width: 700px;
 }
 
 .movies {
@@ -58,7 +56,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 450px;
 }
 
 .movies h1 {
@@ -74,16 +71,11 @@ body {
     color: lemonchiffon;
 }
 
-.movies img {
-    width: 700px;
-    height:300px;
-}
-
 .movies hr {
     border: 0;
     clear:both;
     display:block;
-    width: 800px;               
+    width: 800px;
     background-color: black;
     height: 6px;
 }
@@ -101,7 +93,7 @@ nav#menu ul {
     border: rgb(139, 139, 138) 10px solid;
     width: 190px;
     padding: 20px;
-    
+
 }
 
 nav#menu h1 {
@@ -114,9 +106,9 @@ nav#menu h1 {
 
 nav#menu img {
     height: 70px;
-    padding-top: 90px;
+    padding-top: 80px;
     z-index: 2;
-    
+
 }
 
 nav#menu li {
@@ -128,7 +120,7 @@ nav#menu li {
     text-align: center;
     border: 2px solid black;
     align-content: center;
-    
+
 }
 
 nav#menu a {
@@ -143,7 +135,7 @@ nav#menu a {
     position: fixed;
     top: 0px;
     bottom: 100%;
-    margin-left: 1190px; 
+    margin-left: 1190px;
     width: 250px;
 }
 
@@ -160,7 +152,7 @@ nav#menu a {
 .side img:nth-of-type(3) {
     height: 260px;
     border: rgb(139, 139, 138) 7px solid;
-    
+
 }
 
 audio#music {
@@ -169,6 +161,6 @@ audio#music {
     margin-left: 70px;
 	top: 650px;
     width: 100px;
-    
+
 }
 
